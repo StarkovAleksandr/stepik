@@ -1,0 +1,199 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1219px;
+  padding: 0 55px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 64px;
+  text-align: center;
+  color: #007765;
+}
+
+.paragraph {
+  margin: 16px 0 25px;
+  font-weight: 400;
+  font-size: 32px;
+  color: #000000;
+}
+
+.last-paragraph {
+  margin: 16px 0 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+a[id] {
+  position: absolute;
+  margin-top: -84px;
+}
+
+/*-------------------header-------------------*/
+
+.header {
+  position: sticky;
+  height: 84px;
+  background-color: #007765;
+  width: 100%;
+  top: 0;
+}
+
+.container--header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 184px;
+  height: 45px;
+  margin-top: 20px;
+}
+
+.links {
+  display: flex;
+
+  margin-top: 28px;
+}
+
+.vl {
+  border-left: 2px solid #ffffff;
+  height: 30px;
+
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: #ffffff;
+
+  text-decoration: none;
+}
+
+/*-------------------jumbotron-------------------*/
+
+.first-screen {
+  padding: 160px 0;
+  background-image: url('../img/jumbotron.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 72px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.the-problem {
+  padding: 48px 0 92px;
+  background-color: #eeeeee;
+}
+
+/*-------------------hero-------------------*/
+
+.hero {
+  padding: 128px 0 127px;
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-quotes {
+  margin: 0;
+  padding: 0 107px;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*-------------------ppc-------------------*/
+
+.ppc {
+  padding: 48px 0 92px;
+}
+
+.ppc-logo {
+  margin-top: 16px;
+  margin-right: 48px;
+}
+
+/*-------------------the-team-------------------*/
+
+.the-team {
+  padding: 58px 0 84px;
+  background-color: #eeeeee;
+}
+
+.the-team-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 17px -15px -15px -15px;
+}
+
+.the-team-card {
+  padding: 15px;
+  width: 349px;
+}
+
+.the-team-card-content {
+  margin: 24px 0 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.the-team-card-name {
+  margin: 12px 0 0;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #007765;
+}
+
+.the-team-card-position {
+  margin: 0;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  color: #000;
+}
+
+/*-------------------footer-------------------*/
+
+.footer {
+  background-color: #333333;
+}
+
+.footer-text {
+  margin: 0;
+  padding: 40px 285px 40px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
